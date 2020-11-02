@@ -1,12 +1,62 @@
-.infoSection {
+.sectionOne {
   height: 400px;
   background-color: var(--primary-color);
-  color: #fff;
   position: relative;
 }
 
-.infoSection .grid {
+.sectionOne .grid {
   grid-template-columns: 30% 30%;
   gap: 30px;
   overflow: visible;
+}
+
+.sectionTwo {
+  height: 400px;
+  position: relative;
+}
+
+.containerLeft {
+  border-radius: 5px;
+  background-color: var(--white);
+}
+.containerRight {
+}
+/* 
+=========================
+        Mobile
+=========================
+*/
+@media (min-width: 360px) and (max-width: 600px) {
+  .sectionOne {
+    height: auto;
+    padding: 10px;
+  }
+  .sectionOne .grid {
+    grid-template-columns: 100%;
+    gap: 30px;
+    overflow: visible;
+  }
+  .sectionTwo {
+    height: auto;
+    position: relative;
+  }
+}
+/* 
+=========================
+        Tablets
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionOne {
+    height: 600px;
+  }
+  .sectionOne .grid {
+    grid-template-columns: 30% 30%;
+    gap: 30px;
+    overflow: visible;
+  }
+  .sectionTwo {
+    height: auto;
+    position: relative;
+  }
 }

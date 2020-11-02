@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <AppNavbar />
-    <router-view />
+    <router-view class="pageContainer" />
     <AppFooter />
   </div>
 </template>
@@ -16,5 +16,3 @@ export default {
   },
 };
 </script>
-<style>
-</style>

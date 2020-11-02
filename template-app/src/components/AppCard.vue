@@ -10,6 +10,7 @@ export default {
   props: {
     titleTxt: String,
     paragraphTxt: String,
+    imgSrc: String,
   },
   data() {
     return {};

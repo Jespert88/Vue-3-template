@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand text-white" href="#">Navbar</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,13 +16,43 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <router-link to="/">Home</router-link>
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              href="#"
+            >
+              <router-link to="/">Hem</router-link>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <router-link to="/about">About</router-link>
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              href="#"
+            >
+              <router-link to="/about">Om</router-link>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              href="#"
+            >
+              <router-link to="/">Link 1</router-link>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              href="#"
+            >
+              <router-link to="/">Link 2</router-link>
             </a>
           </li>
           <!-- <li class="nav-item dropdown">

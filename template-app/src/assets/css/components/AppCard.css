@@ -12,6 +12,9 @@
 =========================
 */
 @media (min-width: 360px) and (max-width: 600px) {
+  .card {
+    min-width: 18rem;
+  }
 }
 /* 
 =========================
@@ -19,4 +22,7 @@
 =========================
 */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    min-width: 18rem;
+  }
 }

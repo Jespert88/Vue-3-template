@@ -10,7 +10,21 @@
             flera produkter eller om ett företags huvudmål.
           </p>
 
-          <a href="">Läs mer</a>
+          <span class="text-sm-white" v-on:click="toggle">Läs mer</span>
+          <div v-show="showDiv">
+            <p class="text-sm-white">
+              Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.
+              Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd
+              boksättare tog att antal bokstäver och blandade dem för att göra
+              ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem
+              århundraden, utan även övergången till elektronisk typografi utan
+              större förändringar. Det blev allmänt känt på 1960-talet i samband
+              med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och
+              senare med mjukvaror som Aldus PageMaker.
+            </p>
+          </div>
+
+          <!-- <a href="">Läs mer</a> -->
         </div>
         <AppCard
           v-bind:titleTxt="titleTxt"
@@ -60,11 +74,18 @@ export default {
   },
   data() {
     return {
+      showDiv: true,
+
       titleTxt: "Kort komponent",
       paragraphTxt:
         "Både titeln och texten är data som modifieras i index.vue och tas emot i respektive komponent via props objektet, vilket gör det möjligt att modifiera denna komponent med olika innehåll flera gånger. ",
       imgSrc: "../assets/logo.png",
     };
+  },
+  methods: {
+    toggle() {
+      this.showDiv = !this.showDiv;
+    },
   },
 };
 </script>

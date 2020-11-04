@@ -1,0 +1,120 @@
+.aboutContainer {
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px 40px;
+  background-color: var(--white);
+}
+
+.sectionOneAbout {
+  height: 500px;
+  position: relative;
+}
+.sectionTwoAbout {
+  height: auto;
+  position: relative;
+}
+
+.AboutTextDiv {
+  width: 100%;
+  background-color: #fff;
+}
+.imgDiv {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* 
+=========================
+        Mobile
+=========================
+*/
+@media (min-width: 360px) and (max-width: 600px) {
+  .aboutContainer {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px 40px;
+    background-color: var(--white);
+  }
+
+  .sectionOneAbout {
+    height: auto;
+    position: relative;
+  }
+  .sectionTwoAbout {
+    height: auto;
+    position: relative;
+  }
+
+  .AboutTextDiv {
+    width: auto;
+    background-color: #fff;
+  }
+  .imgDiv {
+    width: auto;
+    background-color: #fff;
+  }
+}
+
+/* 
+=========================
+        Tablets
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutContainer {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px 40px;
+    background-color: var(--white);
+  }
+
+  .sectionOneAbout {
+    height: 400px;
+    position: relative;
+  }
+  .sectionTwoAbout {
+    height: 650px;
+    position: relative;
+  }
+
+  .AboutTextDiv {
+    width: auto;
+    background-color: #fff;
+  }
+  .imgDiv {
+    width: auto;
+    background-color: #fff;
+  }
+}
+
+/* 
+=========================
+      Small laptops
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1366px) {
+  .aboutContainer {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px 40px;
+    background-color: var(--white);
+  }
+
+  .sectionOneAbout {
+    height: 400px;
+    position: relative;
+  }
+  .sectionTwoAbout {
+    height: 650px;
+    position: relative;
+  }
+
+  .AboutTextDiv {
+    width: auto;
+    background-color: #fff;
+  }
+  .imgDiv {
+    width: auto;
+    background-color: #fff;
+  }
+}

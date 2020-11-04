@@ -48,6 +48,25 @@
 */
 @media (min-width: 768px) and (max-width: 1024px) {
   .sectionOne {
+    height: auto;
+  }
+  .sectionOne .grid {
+    grid-template-columns: 30% 30%;
+    gap: 30px;
+    overflow: visible;
+  }
+  .sectionTwo {
+    height: auto;
+    position: relative;
+  }
+}
+/* 
+=========================
+      Small laptops
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1366px) {
+  .sectionOne {
     height: 600px;
   }
   .sectionOne .grid {
